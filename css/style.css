@@ -1,0 +1,365 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+html{
+    font-size: 10px;
+    overflow-x: hidden;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.center-div{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0% 1%
+}
+
+/* header start */
+header{
+    width: 100%;
+    padding: 1% 1%;
+    background: #1A242F;
+    position: sticky;
+    top: 0%;
+}
+.logo{
+    width: 100px;
+}
+.signin-button{
+    width: 200px;
+    padding: 0px 20px;
+    padding-top: 4px;
+    color: grey;
+    justify-content: space-around;
+}
+.signin-button p a{
+    text-decoration:none ;
+    color: grey;
+    font-size: 1.7rem;
+}
+.signin-button p{
+    text-decoration:none ;
+    color: grey;
+    font-size: 1.7rem;
+}
+/* header ends */
+
+/* section 1 start */
+.section1{
+    width: 100%;
+    background: url('../images/banner.jpg');
+    background-size: cover;
+    background-position: center-top;
+    overflow: auto;
+}
+.section1 .text{
+    width: 50%;
+    color: #fafafa;
+    padding-top: 100px;
+}
+.section1 .text h1{
+    font-size: 3rem;
+}
+.section1 .text p{
+    font-size: 1.8rem;
+    font-weight:400;
+    margin-top: 15px;
+}
+.section1 .text button{
+    width: 200px;
+    height: 40px;
+    background: #0F79AF;
+    color: #fafafa;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+/* section 1 ends */
+
+/* section2 start */
+.section2{
+    width: 100%;
+    background: url('../images/section2.jpg');
+    background-size: cover;
+    background-position: center-top;
+    overflow: auto;
+}
+.section2 .text{
+    width: 40%;
+    margin-left: auto;
+    color: white;
+    margin-bottom: 100px;
+    margin-top: 150px;
+}
+.section2 .text h1{
+    font-size: 3em;
+}
+.section2 .text p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.section2 .text button{
+    width: 200px;
+    height: 40px;
+    background: #0F79AF;
+    color: #fafafa;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+/* section2 ends */
+
+/* section 3 start */
+.section3{
+    background: url('../images/section3.jpg');
+    background-size: cover;
+    background-position: center-top;
+     overflow: auto;
+}
+.section3 .text{
+   width: 40%;
+   color: white;
+   margin-top: 150px;
+   margin-bottom: 100px;
+}
+.section3 .text h1{
+    font-size: 3em;
+}
+.section3 .text p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.section3 .text button{
+    width: 200px;
+    height: 40px;
+    background: #0F79AF;
+    color: #fafafa;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+.section3 .imp{
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+/* section 3 ends */
+
+/* section  4 start */
+.section4{
+    width: 100%;
+    background: url('../images/section4.jpg');
+    background-size: cover;
+    background-position: center top;
+    overflow: auto;
+}
+.section4 .text{
+    width: 40%;
+    color: white;
+    margin-left: auto;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+.section4 .text h1{
+    font-size: 3rem;
+}
+.section4 .text p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.section4 .text button{
+    width: 200px;
+    height: 40px;
+    background: #0F79AF;
+    color: #fafafa;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+/* section 4 ends */
+
+/* section 5 start */
+.section5{
+    width: 100%;
+    padding: 5% 0%;
+}
+.section5-inner{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section5-inner .box{
+    width: 30%;
+    text-align: center;
+}
+.section5-inner .box img{
+    width: 80%;
+}
+.section5-inner h1{
+    font-size: 3rem;
+    font-weight: 400;
+}
+.section5-inner p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+/* section 5 ends */
+
+/* section6 start */
+.section6{
+    width: 100%;
+    background: url('../images/section6.jpg');
+    background-size: cover;
+    background-position: center top;
+    overflow:auto;
+}
+.section6 .text{
+    width: 40%;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    color: white;
+}
+.section6 .text h1{
+    font-size: 3rem;
+}
+.section6 .text p{
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.section6 .text button{
+    width: 200px;
+    height: 40px;
+    background: #0F79AF;
+    color: #fafafa;
+    border: none;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+/* section 6 ends */
+
+/* footer start */
+footer{
+  width: 100%;
+  background:#222222 ;
+  text-align: center;
+  padding: 2% 0%;
+}
+footer img{
+    width: 150px;
+    padding: 0px;
+}
+footer p{
+    color: white;
+    font-size: 1.5rem;
+}
+footer p a{
+    color: #0F79AF;
+    text-decoration: none;
+    word-spacing: 5px;
+}
+/* footer ends */
+
+/* language part start */
+.language{
+    width: 600px;
+    height: 70vh;
+    position: absolute;
+    right: 15%;
+    overflow-y: scroll;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: #252E39;
+    position: fixed;
+    display: none;
+}
+.language .box{
+   width: 33.33%;
+}
+.language .box p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    width: 100%;
+    padding: 10px 0px 10px 10px;
+    line-height: 30px;
+}
+.language .box p:hover{
+    background: #566B84;
+    cursor: pointer;
+}
+.lang{
+    cursor: pointer;
+}
+/* language part ends */
+
+/* media query start */
+@media only screen and (max-width:524px){
+     .section .text{
+         width: 100%;
+         text-align: center;
+         margin-top: 250px;
+         margin-bottom: 0px;
+         background: rgba(0, 0, 0, 0.9);
+     }
+     /* .section2 .text{
+        width: 100%;
+        text-align: center;
+    }
+    .section3 .text{
+        width: 100%;
+        text-align: center;
+    }
+    .section4 .text{
+        width: 100%;
+        text-align: center;
+    }
+    .section6 .text{
+        width: 100%;
+        text-align: center;
+    }
+     */
+    .section1{
+        background: url('../images/banner-small.jpg');
+    }
+    .section2{
+        background: url('../images/section2-small.jpg');
+    }
+    .section3{
+        background: url('../images/section3-small.jpg');
+    }
+    .section4{
+        background: url('../images/section4-small.jpg');
+    }
+    .section6{
+        background: url('../images/section6-small.jpg');
+    }
+    .section5-inner .box{
+           width: 100%;
+    }
+    .section5-inner .box img{
+        width: 50%;
+        margin-top: 30px;
+    }
+    .language{
+            width: 100%;   
+            height: 100vh;
+            right: 0px;
+    }
+
+     
+
+}
+
+
+
+
